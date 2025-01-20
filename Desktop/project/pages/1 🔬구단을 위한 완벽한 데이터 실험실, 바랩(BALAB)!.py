@@ -57,7 +57,7 @@ if menu == "바랩(BALAB)":
             return base64.b64encode(img_file.read()).decode()
     
     # 이미지 파일 경로 설정
-    image_folder = "images"  # 이미지 폴더 경로
+    image_folder = os.path.join(base_dir, "../images")  # 이미지 폴더 경로
     image_files = [
         "001.png",  # 첫 번째 이미지
         "002.png",  # 두 번째 이미지
