@@ -46,7 +46,7 @@ model_path = os.path.join(base_dir, "../rf_model.pkl")
 
  # 모델 로드
 with open(model_path, "rb") as file:
-model = pickle.load(file)
+    model = pickle.load(file)
 
 # 학습에 사용된 모든 feature 확인
 all_features = model.feature_names_in_
