@@ -1,0 +1,102 @@
+[33mcommit db1c26b0e738ed57fa965abb864b06b20ccb4658[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: jingu <jingu9905@gmail.com.com>
+Date:   Mon Jan 20 17:48:15 2025 +0900
+
+    Add all files with Git LFS tracking
+
+ hitter_model.pkl  | 3 [32m+++[m
+ pitcher_model.pkl | 3 [32m+++[m
+ 2 files changed, 6 insertions(+)
+
+[33mcommit deffb4ebed466f452b9f0b56f03b8be5eb18dd1d[m
+Author: jingu <jingu9905@gmail.com.com>
+Date:   Mon Jan 20 17:42:44 2025 +0900
+
+    Add all project files
+
+ hitter_model.pkl  | 3 [31m---[m
+ pitcher_model.pkl | 3 [31m---[m
+ 2 files changed, 6 deletions(-)
+
+[33mcommit 10468889e1b5e521f9c62c76aafdc24e5c5328a9[m
+Author: jingu <jingu9905@gmail.com.com>
+Date:   Mon Jan 20 16:30:16 2025 +0900
+
+    Add project with large files using Git LFS
+
+ data/hitter_model.pkl                              |  Bin [31m224756881[m -> [32m0[m bytes
+ data/hitter_model_salary.pkl                       |  Bin [31m348292[m -> [32m0[m bytes
+ data/hitter_scaler.pkl                             |  Bin [31m4471[m -> [32m0[m bytes
+ data/hitter_scaler_salary.pkl                      |  Bin [31m3639[m -> [32m0[m bytes
+ data/pitcher_model.pkl                             |  Bin [31m124693297[m -> [32m0[m bytes
+ data/pitcher_model_salary.pkl                      |  Bin [31m289978[m -> [32m0[m bytes
+ data/pitcher_scaler.pkl                            |  Bin [31m3759[m -> [32m0[m bytes
+ data/pitcher_scaler_salary.pkl                     |  Bin [31m4663[m -> [32m0[m bytes
+ data/rf_model.pkl                                  |  Bin [31m2027993[m -> [32m0[m bytes
+ data/team_year_averages.csv                        | 2806 [31m--------------------[m
+ ...1\234_\354\213\234\352\260\201\355\231\224.csv" | 2806 [31m--------------------[m
+ hitter_model_salary.pkl                            |  Bin [31m348292[m -> [32m131[m bytes
+ hitter_scaler.pkl                                  |  Bin [31m4471[m -> [32m129[m bytes
+ hitter_scaler_salary.pkl                           |  Bin [31m3639[m -> [32m129[m bytes
+ pitcher_model.pkl                                  |  Bin [31m124693297[m -> [32m134[m bytes
+ pitcher_model_salary.pkl                           |  Bin [31m289978[m -> [32m131[m bytes
+ pitcher_scaler.pkl                                 |  Bin [31m3759[m -> [32m129[m bytes
+ pitcher_scaler_salary.pkl                          |  Bin [31m4663[m -> [32m129[m bytes
+ rf_model.pkl                                       |  Bin [31m2027993[m -> [32m132[m bytes
+ 19 files changed, 5612 deletions(-)
+
+[33mcommit 246238d85131248114d3a6a39073c4eb9cbec2d9[m
+Author: jingu <jingu9905@gmail.com.com>
+Date:   Mon Jan 20 16:25:40 2025 +0900
+
+    Add hitter_model.pkl using Git LFS
+
+ .gitattributes   |   2 [32m++[m
+ hitter_model.pkl | Bin [31m224756881[m -> [32m134[m bytes
+ 2 files changed, 2 insertions(+)
+
+[33mcommit de1cbccb3d984cf422735fea34399a43d599cedd[m
+Author: jingu <jingu9905@gmail.com.com>
+Date:   Mon Jan 20 16:10:53 2025 +0900
+
+    Add project files
+
+ Team-Year_Averages_of_MLB_Performance_Metrics.csv  | 2806 [32m++++++++++++++++++++[m
+ data/hitter_model.pkl                              |  Bin [31m0[m -> [32m224756881[m bytes
+ data/hitter_model_salary.pkl                       |  Bin [31m0[m -> [32m348292[m bytes
+ data/hitter_scaler.pkl                             |  Bin [31m0[m -> [32m4471[m bytes
+ data/hitter_scaler_salary.pkl                      |  Bin [31m0[m -> [32m3639[m bytes
+ data/pitcher_model.pkl                             |  Bin [31m0[m -> [32m124693297[m bytes
+ data/pitcher_model_salary.pkl                      |  Bin [31m0[m -> [32m289978[m bytes
+ data/pitcher_scaler.pkl                            |  Bin [31m0[m -> [32m3759[m bytes
+ data/pitcher_scaler_salary.pkl                     |  Bin [31m0[m -> [32m4663[m bytes
+ data/rf_model.pkl                                  |  Bin [31m0[m -> [32m2027993[m bytes
+ data/team_year_averages.csv                        | 2806 [32m++++++++++++++++++++[m
+ ...1\234_\354\213\234\352\260\201\355\231\224.csv" | 2806 [32m++++++++++++++++++++[m
+ hitter_model.pkl                                   |  Bin [31m0[m -> [32m224756881[m bytes
+ hitter_model_salary.pkl                            |  Bin [31m0[m -> [32m348292[m bytes
+ hitter_scaler.pkl                                  |  Bin [31m0[m -> [32m4471[m bytes
+ hitter_scaler_salary.pkl                           |  Bin [31m0[m -> [32m3639[m bytes
+ images/001.png                                     |  Bin [31m0[m -> [32m683756[m bytes
+ images/002.png                                     |  Bin [31m0[m -> [32m661000[m bytes
+ images/003.png                                     |  Bin [31m0[m -> [32m660514[m bytes
+ images/004.png                                     |  Bin [31m0[m -> [32m1961544[m bytes
+ images/005.png                                     |  Bin [31m0[m -> [32m2382820[m bytes
+ ...4\213\244, \353\260\224\353\236\251(BALAB)!.py" |  572 [32m++++[m
+ ...7\204\354\266\234 \354\227\254\353\266\200).py" |  140 [32m+[m
+ ...7\260\353\264\211 \354\230\210\354\270\241).py" |  161 [32m++[m
+ ...6\254\354\226\264 \354\230\210\354\270\241).py" |  164 [32m++[m
+ ...\254 \355\214\200 \355\217\211\352\260\200).py" |  208 [32m++[m
+ ...1\204\352\265\220&\355\217\211\352\260\200).py" |  215 [32m++[m
+ pitcher_model.pkl                                  |  Bin [31m0[m -> [32m124693297[m bytes
+ pitcher_model_salary.pkl                           |  Bin [31m0[m -> [32m289978[m bytes
+ pitcher_scaler.pkl                                 |  Bin [31m0[m -> [32m3759[m bytes
+ pitcher_scaler_salary.pkl                          |  Bin [31m0[m -> [32m4663[m bytes
+ requirements.txt                                   |    6 [32m+[m
+ rf_model.pkl                                       |  Bin [31m0[m -> [32m2027993[m bytes
+ ...263\265\355\206\265\355\225\250\354\210\230.py" |    0
+ "utils/\354\204\244\354\240\225.py"                |    0
+ ...04\260\355\206\244_\353\251\224\354\235\270.py" |   96 [32m+[m
+ ...55\226\211\353\260\251\353\262\225_read_me.txt" |   19 [32m+[m
+ ...1\234_\354\213\234\352\260\201\355\231\224.csv" | 2806 [32m++++++++++++++++++++[m
+ 38 files changed, 12805 insertions(+)
