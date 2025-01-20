@@ -38,8 +38,15 @@ with st.sidebar:
         unsafe_allow_html=True,
     )
 
-# 저장된 모델 로드
-model = pickle.load(open('rf_model.pkl', 'rb'))
+# 현재 파일의 디렉토리 경로
+base_dir = os.path.dirname(os.path.abspath(__file__))
+
+# 모델 파일 경로 설정
+model_path = os.path.join(base_dir, "rf_model.pkl")
+
+# 모델 로드
+with open(model_path, "rb") as file:
+    model = pickle.load(file)
 
 # 학습에 사용된 모든 feature 확인
 all_features = model.feature_names_in_
